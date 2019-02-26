@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentRegistartion">
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+      <RelativeLayout
+          android:background="@drawable/bg_contact"
+          android:layout_width="match_parent"
+          android:layout_height="100dp"
+          android:layout_marginTop="0dp"
+          android:layout_marginRight="0dp"
+          android:layout_marginLeft="0dp">
+
+          <ImageView
+              android:padding="10dp"
+              android:id="@+id/imageView4"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_alignParentStart="true"
+              android:layout_centerVertical="true"
+              android:layout_marginStart="15dp"
+              app:srcCompat="@drawable/back" />
+
+          <TextView
+              android:id="@+id/textView5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBottom="@+id/imageView4"
+              android:layout_alignParentStart="true"
+              android:layout_marginStart="62dp"
+              android:textColor="@color/white"
+              android:textStyle="bold"
+              android:textSize="24sp"
+              android:layout_marginBottom="2dp"
+              android:text="Registration" />
+      </RelativeLayout>
+
+
+      <RelativeLayout
+
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="23dp"
+          >
+          <TextView
+              android:textColor="@color/black"
+              android:id="@+id/text"
+              android:textSize="24sp"
+              android:textStyle="bold"
+              android:gravity="center"
+              android:inputType="textPersonName"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Team Details"
+              />
+          <EditText
+              android:layout_below="@+id/text"
+              android:gravity="center"
+              android:padding="10dp"
+              android:id="@+id/edi1"
+              android:inputType="textPersonName"
+              android:layout_marginTop="15dp"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:background="@drawable/rounded_button"
+              android:hint="Team Name"/>
+          <EditText
+              android:layout_below="@+id/edi1"
+              android:gravity="center"
+              android:inputType="textPersonName"
+              android:padding="10dp"
+              android:id="@+id/edi2"
+              android:layout_marginTop="15dp"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:background="@drawable/rounded_button"
+              android:hint="Member 1"/>
+          <EditText
+              android:layout_below="@+id/edi2"
+              android:gravity="center"
+              android:padding="10dp"
+              android:id="@+id/edi3"
+              android:inputType="textPersonName"
+              android:layout_marginTop="15dp"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:background="@drawable/rounded_button"
+              android:hint="Member 2"/>
+          <EditText
+              android:layout_below="@+id/edi3"
+              android:gravity="center"
+              android:padding="10dp"
+              android:inputType="textPersonName"
+              android:id="@+id/edi4"
+              android:layout_marginTop="15dp"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:background="@drawable/rounded_button"
+              android:hint="Member 3"/>
+          <EditText
+              android:layout_below="@+id/edi4"
+              android:gravity="center"
+              android:padding="10dp"
+              android:id="@+id/edi5"
+              android:layout_marginTop="15dp"
+              android:inputType="textPersonName"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:background="@drawable/rounded_button"
+              android:hint="Member 4"/>
+          <EditText
+              android:layout_below="@+id/edi5"
+              android:gravity="center"
+              android:padding="10dp"
+              android:id="@+id/edi6"
+              android:layout_marginTop="15dp"
+              android:inputType="textPersonName"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:background="@drawable/rounded_button"
+              android:hint="College"/>
+
+          <TextView
+              android:id="@+id/text2"
+                android:text="Contact Details"
+              android:gravity="center"
+              android:textStyle="bold"
+              android:textColor="@color/black"
+              android:textSize="24sp"
+              android:layout_below="@+id/edi6"
+              android:layout_marginTop="15dp"
+               android:layout_width="match_parent"
+              android:layout_height="wrap_content" />
+
+         <EditText
+          android:layout_below="@+id/text2"
+          android:gravity="center"
+          android:padding="10dp"
+          android:id="@+id/edi7"
+          android:layout_marginTop="15dp"
+          android:inputType="number"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:background="@drawable/rounded_button"
+          android:hint="Phone Number"/>
+          <EditText
+              android:layout_below="@+id/edi7"
+              android:gravity="center"
+              android:padding="10dp"
+              android:id="@+id/edi8"
+              android:layout_marginTop="15dp"
+              android:inputType="textEmailAddress"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:background="@drawable/rounded_button"
+              android:hint="Email"/>
+
+          <Button
+              android:id="@+id/button"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/edi8"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="15dp"
+              android:background="@drawable/rounded_button"
+              android:gravity="center"
+              android:text="REGISTER"
+              android:layout_marginBottom="25dp"
+              android:textColor="@color/black"
+              android:textSize="24dp" />
+
+      </RelativeLayout>
+
+  </LinearLayout>
+
+
+</ScrollView>
