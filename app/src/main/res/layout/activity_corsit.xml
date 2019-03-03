@@ -86,17 +86,20 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
-                android:text="CORSIT is the robotics club of SIT, working in the field of
+                android:text="CORSIT is the premier robotics club of SIT, under the patronage of e-yantra cell of IIT Bombay working in the field of
 robotics to bring together like-minded individuals to share
 experience and have fun building robots. The club was
-established in year 2006 and since then it has organized many
+established in year 2006 and since then it has organized various
 national level workshops as well as participated in various
 national level events. Our aim is to empower students with the
 possibility of getting their hands dirty and learning about
 robotics by practically doing it. It officially controls all the
 robotics activities carried out by SIT.
-"
-                android:textSize="13sp" />
+Our Club members have actively participated in techfests all round the country including Techfest IIT Bombay, Kshitij IIT Kharagpur, Shastra IIT Madras, Pravega IISC among many others and have brought laurels to the club.
+
+Our club is the only one to have our labs set-up I'm collaboration with e-yantra cell of IIT Bombay in which our members build robots and projects on diverse topics including Machine Learning, Computer Vision, IOT, Embedded Systems, Blockchain among others."
+                android:textSize="15sp"
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
@@ -106,24 +109,27 @@ robotics activities carried out by SIT.
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             >
-           <TextView
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:gravity="center"
-               android:text="Our Capabilities"
-               android:textColor="@color/black"
-               android:textStyle="bold"
-               android:textSize="24sp"
-               />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Our Activities"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                android:text="1.Line Follower
-                              "/>
+                android:text="ROBOTECH"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
             <ImageView
                 android:layout_marginTop="100dp"
-                android:src="@drawable/abhinav"
+                android:src="@drawable/fc"
                 android:layout_width="match_parent"
                 android:layout_height="300dp" />
 
@@ -138,15 +144,18 @@ robotics activities carried out by SIT.
             >
 
                 />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                android:text="2.Roborace
-                              "/>
+                android:text="ROBOCON"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
             <ImageView
                 android:layout_marginTop="100dp"
-                android:src="@drawable/abhinav"
+                android:src="@drawable/rc"
                 android:layout_width="match_parent"
                 android:layout_height="300dp" />
 
@@ -160,15 +169,18 @@ robotics activities carried out by SIT.
             >
 
             />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                android:text="3.Aquarace
-                              "/>
+                android:text="PROJECTS"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
             <ImageView
                 android:layout_marginTop="100dp"
-                android:src="@drawable/abhinav"
+                android:src="@drawable/proj"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:layout_marginBottom="10dp"/>
@@ -183,15 +195,18 @@ robotics activities carried out by SIT.
             >
 
             />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                android:text="4.Robosoccer
-                              "/>
+                android:text="WORKSHOP"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
             <ImageView
                 android:layout_marginTop="100dp"
-                android:src="@drawable/abhinav"
+                android:src="@drawable/six"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:layout_marginBottom="10dp"/>
@@ -206,15 +221,18 @@ robotics activities carried out by SIT.
             >
 
             />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                android:text="5.Paper Presnataion
-                              "/>
+                android:text="COMPETITIONS"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
             <ImageView
                 android:layout_marginTop="100dp"
-                android:src="@drawable/abhinav"
+                android:src="@drawable/comp"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:layout_marginBottom="10dp"/>
