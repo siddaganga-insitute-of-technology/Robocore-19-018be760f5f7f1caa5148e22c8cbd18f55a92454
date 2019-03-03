@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
 
+
+
+
         videoView = findViewById(R.id.mVideoView);
         setSupportActionBar(toolbar);
         Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.bg_video);
@@ -50,6 +53,7 @@ public class MainActivity extends AppCompatActivity
         videoView.setVideoURI(uri);
         videoView.requestFocus();
         videoView.start();
+
 
         videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
             @Override

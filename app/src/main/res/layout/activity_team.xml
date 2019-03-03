@@ -80,7 +80,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="16dp"
 
-                    android:src="@drawable/amaan" />
+                     />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -165,7 +165,7 @@
                         android:layout_height="80dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="16dp"
-                        android:src="@drawable/aditi" />
+                         />
 
                     <TextView
                         android:layout_below="@+id/image3"
@@ -205,7 +205,7 @@
                         android:layout_height="80dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="16dp"
-                        android:src="@drawable/anshuman" />
+                        />
 
                     <TextView
                         android:layout_below="@+id/image4"
