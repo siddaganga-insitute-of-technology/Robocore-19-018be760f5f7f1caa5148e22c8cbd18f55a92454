@@ -185,7 +185,7 @@ Our club is the only one to have our labs set-up I'm collaboration with e-yantra
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="100dp"
                 android:layout_marginBottom="10dp"
-                android:src="@mipmap/proj" />
+                android:src="@mipmap/six" />
 
         </RelativeLayout>
 
